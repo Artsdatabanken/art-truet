@@ -1,0 +1,236 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "2010 kategori": {
+            "type": "string"
+          },
+          "2010 kriterier": {
+            "type": "string"
+          },
+          "A": {
+            "type": "string"
+          },
+          "AndelAvEuropeiskBestand": {
+            "type": "string"
+          },
+          "AndelAvGlobalBestand": {
+            "type": "string"
+          },
+          "AndelNåværendeBestand": {
+            "type": "string"
+          },
+          "B": {
+            "type": "string"
+          },
+          "C": {
+            "type": "string"
+          },
+          "D": {
+            "type": "string"
+          },
+          "Hovedhabitat": {
+            "type": "string"
+          },
+          "Kategori2015": {
+            "type": "string"
+          },
+          "Kriteriedokumentasjon": {
+            "type": "string"
+          },
+          "Kriterier": {
+            "type": "string"
+          },
+          "Oa": {
+            "type": "string"
+          },
+          "Påvirkningsfaktorer": {
+            "type": "string"
+          },
+          "Region": {
+            "type": "string"
+          },
+          "Tolig utdødd": {
+            "type": "string"
+          },
+          "Vitenskapelig navn": {
+            "type": "string"
+          },
+          "kode": {
+            "type": "string"
+          },
+          "Mr": {
+            "type": "string"
+          },
+          "Nt": {
+            "type": "string"
+          },
+          "St": {
+            "type": "string"
+          },
+          "Generasjonslengde": {
+            "type": "string"
+          },
+          "Te": {
+            "type": "string"
+          },
+          "Aa": {
+            "type": "string"
+          },
+          "Ho": {
+            "type": "string"
+          },
+          "Ro": {
+            "type": "string"
+          },
+          "Ve": {
+            "type": "string"
+          },
+          "Øs": {
+            "type": "string"
+          },
+          "ÅrsakTilEndringAvKategori": {
+            "type": "string"
+          },
+          "Bu": {
+            "type": "string"
+          },
+          "Fi": {
+            "type": "string"
+          },
+          "He": {
+            "type": "string"
+          },
+          "Op": {
+            "type": "string"
+          },
+          "No": {
+            "type": "string"
+          },
+          "Va": {
+            "type": "string"
+          },
+          "Tr": {
+            "type": "string"
+          },
+          "Sf": {
+            "type": "string"
+          },
+          "No3": {
+            "type": "string"
+          },
+          "Bh": {
+            "type": "string"
+          },
+          "Sv": {
+            "type": "string"
+          },
+          "Nh": {
+            "type": "string"
+          },
+          "Sk": {
+            "type": "string"
+          },
+          "Po": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "2010 kategori",
+          "2010 kriterier",
+          "A",
+          "AndelAvEuropeiskBestand",
+          "AndelAvGlobalBestand",
+          "AndelNåværendeBestand",
+          "B",
+          "C",
+          "D",
+          "Hovedhabitat",
+          "Kategori2015",
+          "Kriteriedokumentasjon",
+          "Kriterier",
+          "Oa",
+          "Påvirkningsfaktorer",
+          "Region",
+          "Tolig utdødd",
+          "Vitenskapelig navn",
+          "kode",
+          "Generasjonslengde",
+          "Aa",
+          "Ve",
+          "Øs",
+          "Te",
+          "ÅrsakTilEndringAvKategori",
+          "Bu",
+          "Ho",
+          "St",
+          "He",
+          "Mr",
+          "Nt",
+          "Op",
+          "Ro",
+          "Va",
+          "Fi",
+          "No",
+          "Tr",
+          "Sf",
+          "Bh",
+          "No3",
+          "Sv",
+          "Nh",
+          "Sk",
+          "Po"
+        ]
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "tittel": {
+          "type": "string"
+        },
+        "produsertUtc": {
+          "type": "string"
+        },
+        "utgiver": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "tool": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "url": {
+              "type": "null"
+            }
+          }
+        },
+        "elementer": {
+          "type": "number"
+        }
+      }
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "meta": {
+    "tittel": "Art.schema",
+    "produsertUtc": "2019-10-14T10:22:34.301Z",
+    "utgiver": "Artsdatabanken",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/art.schema.json",
+    "tool": {
+      "name": "truet-art-lastejobb"
+    },
+    "elementer": 3
+  }
+}

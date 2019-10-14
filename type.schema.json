@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "beskrivelse": {
+            "type": "object",
+            "properties": {
+              "nb": {
+                "type": "string"
+              }
+            }
+          },
+          "farge": {
+            "type": "string"
+          },
+          "infoUrl": {
+            "type": "string"
+          },
+          "kode": {
+            "type": "string"
+          },
+          "sortering": {
+            "type": "number"
+          },
+          "tittel": {
+            "type": "object",
+            "properties": {
+              "nb": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "required": [
+          "beskrivelse",
+          "kode",
+          "sortering",
+          "tittel",
+          "farge"
+        ]
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "tittel": {
+          "type": "string"
+        },
+        "produsertUtc": {
+          "type": "string"
+        },
+        "utgiver": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "tool": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "url": {
+              "type": "null"
+            }
+          }
+        },
+        "elementer": {
+          "type": "number"
+        }
+      }
+    }
+  },
+  "meta": {
+    "tittel": "Type.schema",
+    "produsertUtc": "2019-10-14T10:18:27.652Z",
+    "utgiver": "Artsdatabanken",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/type.schema.json",
+    "tool": {
+      "name": "truet-art-lastejobb"
+    },
+    "elementer": 3
+  }
+}

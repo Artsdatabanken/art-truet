@@ -1,11 +1,11 @@
 {
   "items": [
     {
-      "farge": "hsl(12, 40%, 70%)",
-      "infoUrl": "https://no.wikipedia.org/wiki/IUCNs_r%C3%B8dliste#R%C3%B8dlistestatus",
-      "ingress": {
+      "beskrivelse": {
         "nb": "Truede arter er arter som står i fare for å dø ut. Den offisielle oversikten over hvilke arter dette gjelder gis i den nasjonale rødlista. Fjellrev, ulv og lomvi er blant artene som er kritisk truet."
       },
+      "farge": "hsl(12, 40%, 70%)",
+      "infoUrl": "https://no.wikipedia.org/wiki/IUCNs_r%C3%B8dliste#R%C3%B8dlistestatus",
       "kode": "RL",
       "sortering": 5,
       "tittel": {
@@ -13,6 +13,9 @@
       }
     },
     {
+      "beskrivelse": {
+        "nb": "Ekstremt høy risiko for utdøing.  Minst 50 % sannsynlighet for utdøing innen 3 generasjoner eller 10 år – maks. 100 år)"
+      },
       "kode": "RL-CR",
       "sortering": 2,
       "tittel": {
@@ -20,6 +23,9 @@
       }
     },
     {
+      "beskrivelse": {
+        "nb": "Mer kunnskap nødvendig før kategori kan fastsettes."
+      },
       "farge": "#808080",
       "kode": "RL-DD",
       "sortering": 8,
@@ -28,6 +34,9 @@
       }
     },
     {
+      "beskrivelse": {
+        "nb": "Svært høy risiko for utdøing (Minst 20 % sannsynlighet for utdøing innen 5 generasjoner eller 20 år – maks. 100 år)."
+      },
       "farge": "#FFA500",
       "kode": "RL-EN",
       "sortering": 3,
@@ -43,6 +52,9 @@
       }
     },
     {
+      "beskrivelse": {
+        "nb": "Arter som ikke skal vurderes ved nasjonal rødlisting. Dette er for eksempel fremmede arter og tilfeldige gjester."
+      },
       "kode": "RL-NA",
       "sortering": 7,
       "tittel": {
@@ -50,6 +62,9 @@
       }
     },
     {
+      "beskrivelse": {
+        "nb": "Minst 5 % sannsynlighet for utdøing innen 100 år*)."
+      },
       "farge": "#AEFF2F",
       "kode": "RL-NT",
       "sortering": 5,
@@ -58,6 +73,9 @@
       }
     },
     {
+      "beskrivelse": {
+        "nb": "Svært liten tvil om at arten er utdødd fra Norge."
+      },
       "kode": "RL-RE",
       "sortering": 1,
       "tittel": {
@@ -65,6 +83,9 @@
       }
     },
     {
+      "beskrivelse": {
+        "nb": "Høy risiko for utdøing (Minst 10 % sannsynlighet for utdøing innen 100 år)."
+      },
       "farge": "#FFFF00",
       "kode": "RL-VU",
       "sortering": 4,
@@ -75,9 +96,9 @@
   ],
   "meta": {
     "tittel": "Type",
-    "produsertUtc": "2019-09-21T15:52:34.132Z",
+    "produsertUtc": "2019-10-14T10:18:27.647Z",
     "utgiver": "Artsdatabanken",
-    "url": null,
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/type.json",
     "tool": {
       "name": "truet-art-lastejobb"
     },
