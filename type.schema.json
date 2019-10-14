@@ -75,11 +75,14 @@
           "type": "number"
         }
       }
+    },
+    "$schema": {
+      "type": "string"
     }
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-10-14T10:18:27.652Z",
+    "produsertUtc": "2019-10-14T21:21:08.933Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/type.schema.json",
     "tool": {

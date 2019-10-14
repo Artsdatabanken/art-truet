@@ -96,12 +96,13 @@
   ],
   "meta": {
     "tittel": "Type",
-    "produsertUtc": "2019-10-14T10:18:27.647Z",
+    "produsertUtc": "2019-10-14T21:21:08.929Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/type.json",
     "tool": {
       "name": "truet-art-lastejobb"
     },
     "elementer": 9
-  }
+  },
+  "$schema": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/type.schema.json#"
 }
