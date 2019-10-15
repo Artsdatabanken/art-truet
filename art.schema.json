@@ -24,7 +24,7 @@
                   }
                 }
               },
-              "2015": {
+              "gjeldende": {
                 "type": "object",
                 "properties": {
                   "A": {
@@ -162,7 +162,7 @@
                   }
                 }
               },
-              "2015": {
+              "gjeldende": {
                 "type": "object",
                 "properties": {
                   "A": {
@@ -265,7 +265,7 @@
   },
   "meta": {
     "tittel": "Art.schema",
-    "produsertUtc": "2019-10-15T14:51:57.889Z",
+    "produsertUtc": "2019-10-15T15:08:48.617Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/art.schema.json",
     "tool": {
