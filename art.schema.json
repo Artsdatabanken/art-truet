@@ -19,6 +19,9 @@
                   "kategori": {
                     "type": "string"
                   },
+                  "år": {
+                    "type": "number"
+                  },
                   "kriterier": {
                     "type": "string"
                   }
@@ -44,6 +47,9 @@
                   },
                   "kategori": {
                     "type": "string"
+                  },
+                  "år": {
+                    "type": "number"
                   },
                   "AndelAvEuropeiskBestand": {
                     "type": "string"
@@ -157,6 +163,9 @@
                   "kategori": {
                     "type": "string"
                   },
+                  "år": {
+                    "type": "number"
+                  },
                   "kriterier": {
                     "type": "string"
                   }
@@ -185,6 +194,9 @@
                   },
                   "ÅrsakTilEndringAvKategori": {
                     "type": "string"
+                  },
+                  "år": {
+                    "type": "number"
                   },
                   "AndelAvEuropeiskBestand": {
                     "type": "string"
@@ -265,7 +277,7 @@
   },
   "meta": {
     "tittel": "Art.schema",
-    "produsertUtc": "2019-10-15T15:08:48.617Z",
+    "produsertUtc": "2019-10-16T11:22:12.883Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/art.schema.json",
     "tool": {
