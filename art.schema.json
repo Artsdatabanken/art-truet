@@ -151,6 +151,14 @@
                     "type": "string"
                   }
                 }
+              },
+              "lenke": {
+                "type": "object",
+                "properties": {
+                  "rødliste": {
+                    "type": "string"
+                  }
+                }
               }
             }
           },
@@ -229,6 +237,14 @@
                     "type": "string"
                   }
                 }
+              },
+              "lenke": {
+                "type": "object",
+                "properties": {
+                  "rødliste": {
+                    "type": "string"
+                  }
+                }
               }
             }
           }
@@ -277,7 +293,7 @@
   },
   "meta": {
     "tittel": "Art.schema",
-    "produsertUtc": "2019-10-16T11:22:12.883Z",
+    "produsertUtc": "2019-10-16T14:12:56.898Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/art.schema.json",
     "tool": {
