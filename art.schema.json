@@ -42,11 +42,19 @@
                   "D": {
                     "type": "string"
                   },
-                  "Tolig utdødd": {
+                  "Trolig utdødd": {
                     "type": "string"
                   },
                   "kategori": {
                     "type": "string"
+                  },
+                  "lenke": {
+                    "type": "object",
+                    "properties": {
+                      "rødliste_2015": {
+                        "type": "string"
+                      }
+                    }
                   },
                   "år": {
                     "type": "number"
@@ -151,14 +159,6 @@
                     "type": "string"
                   }
                 }
-              },
-              "lenke": {
-                "type": "object",
-                "properties": {
-                  "rødliste": {
-                    "type": "string"
-                  }
-                }
               }
             }
           },
@@ -194,11 +194,19 @@
                   "D": {
                     "type": "string"
                   },
-                  "Tolig utdødd": {
+                  "Trolig utdødd": {
                     "type": "string"
                   },
                   "kategori": {
                     "type": "string"
+                  },
+                  "lenke": {
+                    "type": "object",
+                    "properties": {
+                      "rødliste_2015": {
+                        "type": "string"
+                      }
+                    }
                   },
                   "ÅrsakTilEndringAvKategori": {
                     "type": "string"
@@ -234,14 +242,6 @@
                     "type": "string"
                   },
                   "Po": {
-                    "type": "string"
-                  }
-                }
-              },
-              "lenke": {
-                "type": "object",
-                "properties": {
-                  "rødliste": {
                     "type": "string"
                   }
                 }
@@ -293,7 +293,7 @@
   },
   "meta": {
     "tittel": "Art.schema",
-    "produsertUtc": "2019-10-16T14:12:56.898Z",
+    "produsertUtc": "2019-10-17T21:42:15.847Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/art.schema.json",
     "tool": {
