@@ -10,7 +10,8 @@
       "sortering": 5,
       "tittel": {
         "nb": "Truet art/natur"
-      }
+      },
+      "url": "/Truet_art_natur"
     },
     {
       "beskrivelse": {
@@ -20,7 +21,8 @@
       "sortering": 2,
       "tittel": {
         "nb": "Kritisk truet"
-      }
+      },
+      "url": "/Truet_art_natur/Kritisk_truet"
     },
     {
       "beskrivelse": {
@@ -31,7 +33,8 @@
       "sortering": 8,
       "tittel": {
         "nb": "Datamangel"
-      }
+      },
+      "url": "/Truet_art_natur/Datamangel"
     },
     {
       "beskrivelse": {
@@ -42,14 +45,16 @@
       "sortering": 3,
       "tittel": {
         "nb": "Sterkt truet"
-      }
+      },
+      "url": "/Truet_art_natur/Sterkt_truet"
     },
     {
       "kode": "RL-LC",
       "sortering": 6,
       "tittel": {
         "nb": "Ikke rødlistet"
-      }
+      },
+      "url": "/Truet_art_natur/Ikke_rødlistet"
     },
     {
       "beskrivelse": {
@@ -59,7 +64,8 @@
       "sortering": 7,
       "tittel": {
         "nb": "Ikke vurdert"
-      }
+      },
+      "url": "/Truet_art_natur/Ikke_vurdert"
     },
     {
       "beskrivelse": {
@@ -70,7 +76,8 @@
       "sortering": 5,
       "tittel": {
         "nb": "Nær truet"
-      }
+      },
+      "url": "/Truet_art_natur/Nær_truet"
     },
     {
       "beskrivelse": {
@@ -80,7 +87,8 @@
       "sortering": 1,
       "tittel": {
         "nb": "Regionalt utdødd"
-      }
+      },
+      "url": "/Truet_art_natur/Regionalt_utdødd"
     },
     {
       "beskrivelse": {
@@ -91,12 +99,13 @@
       "sortering": 4,
       "tittel": {
         "nb": "Sårbar"
-      }
+      },
+      "url": "/Truet_art_natur/Sårbar"
     }
   ],
   "meta": {
     "tittel": "Type",
-    "produsertUtc": "2019-10-17T21:42:14.856Z",
+    "produsertUtc": "2019-10-17T23:48:23.181Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/type.json",
     "tool": {
