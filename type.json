@@ -17,6 +17,7 @@
       "beskrivelse": {
         "nb": "Ekstremt høy risiko for utdøing.  Minst 50 % sannsynlighet for utdøing innen 3 generasjoner eller 10 år – maks. 100 år)"
       },
+      "farge": "#f01010",
       "kode": "RL-CR",
       "sortering": 2,
       "tittel": {
@@ -49,6 +50,10 @@
       "url": "/Truet_art_natur/Sterkt_truet"
     },
     {
+      "beskrivelse": {
+        "nb": "Oppfyller ingen av kriteriene for kategoriene CR, EN, VU eller NT, og ikke er satt til kategoriene DD eller NE. Kategorien intakt sier ikke noe om den historiske utbredelsen."
+      },
+      "farge": "#008000",
       "kode": "RL-LC",
       "sortering": 6,
       "tittel": {
@@ -58,9 +63,10 @@
     },
     {
       "beskrivelse": {
-        "nb": "Arter som ikke skal vurderes ved nasjonal rødlisting. Dette er for eksempel fremmede arter og tilfeldige gjester."
+        "nb": "Det er ikke gjort noen rødlistevurdering. Dette kan skyldes svært dårlig kunnskapsgrunnlag eller mangel på tilgjengelig kompetanse. "
       },
-      "kode": "RL-NA",
+      "farge": "#FFF",
+      "kode": "RL-NE",
       "sortering": 7,
       "tittel": {
         "nb": "Ikke vurdert"
@@ -83,6 +89,7 @@
       "beskrivelse": {
         "nb": "Svært liten tvil om at arten er utdødd fra Norge."
       },
+      "farge": "#8c8a85",
       "kode": "RL-RE",
       "sortering": 1,
       "tittel": {
@@ -105,7 +112,7 @@
   ],
   "meta": {
     "tittel": "Type",
-    "produsertUtc": "2019-10-17T23:48:23.181Z",
+    "produsertUtc": "2019-10-18T16:03:32.729Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/type.json",
     "tool": {

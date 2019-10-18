@@ -41,11 +41,11 @@
         },
         "required": [
           "beskrivelse",
+          "farge",
           "kode",
           "sortering",
           "tittel",
-          "url",
-          "farge"
+          "url"
         ]
       }
     },
@@ -86,7 +86,7 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-10-17T23:48:23.184Z",
+    "produsertUtc": "2019-10-18T16:03:32.732Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/type.schema.json",
     "tool": {
