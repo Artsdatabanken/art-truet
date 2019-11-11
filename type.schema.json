@@ -18,6 +18,10 @@
           "farge": {
             "type": "string"
           },
+          "foreldre": {
+            "type": "array",
+            "items": {}
+          },
           "infoUrl": {
             "type": "string"
           },
@@ -86,7 +90,7 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-10-18T16:03:32.732Z",
+    "produsertUtc": "2019-11-11T11:19:15.214Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/type.schema.json",
     "tool": {

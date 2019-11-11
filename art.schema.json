@@ -74,13 +74,7 @@
                   "ÅrsakTilEndringAvKategori": {
                     "type": "string"
                   },
-                  "Fi": {
-                    "type": "string"
-                  },
                   "Generasjonslengde": {
-                    "type": "string"
-                  },
-                  "He": {
                     "type": "string"
                   },
                   "Hovedhabitat": {
@@ -89,59 +83,25 @@
                   "Kriterier": {
                     "type": "string"
                   },
-                  "Oa": {
-                    "type": "string"
-                  },
                   "Påvirkningsfaktorer": {
                     "type": "string"
                   },
-                  "No": {
-                    "type": "string"
-                  },
-                  "Tr": {
-                    "type": "string"
-                  },
-                  "Aa": {
-                    "type": "string"
-                  },
-                  "Mr": {
-                    "type": "string"
-                  },
-                  "Ro": {
-                    "type": "string"
-                  },
-                  "Sf": {
-                    "type": "string"
-                  },
-                  "Te": {
-                    "type": "string"
-                  },
-                  "Va": {
-                    "type": "string"
-                  },
-                  "Ve": {
-                    "type": "string"
-                  },
-                  "Øs": {
-                    "type": "string"
-                  },
-                  "Bu": {
-                    "type": "string"
-                  },
-                  "Nt": {
-                    "type": "string"
-                  },
-                  "Op": {
-                    "type": "string"
-                  },
-                  "St": {
-                    "type": "string"
-                  },
-                  "Ho": {
-                    "type": "string"
-                  },
-                  "Sv": {
-                    "type": "string"
+                  "utbredelse": {
+                    "type": "object",
+                    "properties": {
+                      "sikker": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "usikker": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    }
                   },
                   "Bh": {
                     "type": "string"
@@ -232,8 +192,22 @@
                   "Kriteriedokumentasjon": {
                     "type": "string"
                   },
-                  "Sv": {
-                    "type": "string"
+                  "utbredelse": {
+                    "type": "object",
+                    "properties": {
+                      "sikker": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      },
+                      "usikker": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    }
                   },
                   "Kriterier": {
                     "type": "string"
@@ -293,7 +267,7 @@
   },
   "meta": {
     "tittel": "Art.schema",
-    "produsertUtc": "2019-10-18T08:06:46.484Z",
+    "produsertUtc": "2019-11-11T11:19:23.917Z",
     "utgiver": "Artsdatabanken",
     "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/art.schema.json",
     "tool": {
