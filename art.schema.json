@@ -1,278 +1,471 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "items": {
-      "type": "array",
+  "items": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+      "$schema": {
+        "type": "string"
+      },
       "items": {
-        "type": "object",
-        "properties": {
-          "kode": {
-            "type": "string"
-          },
-          "norge": {
-            "type": "object",
-            "properties": {
-              "2010": {
-                "type": "object",
-                "properties": {
-                  "kategori": {
-                    "type": "string"
-                  },
-                  "år": {
-                    "type": "number"
-                  },
-                  "kriterier": {
-                    "type": "string"
-                  }
-                }
-              },
-              "gjeldende": {
-                "type": "object",
-                "properties": {
-                  "A": {
-                    "type": "string"
-                  },
-                  "B": {
-                    "type": "string"
-                  },
-                  "C": {
-                    "type": "string"
-                  },
-                  "D": {
-                    "type": "string"
-                  },
-                  "Trolig utdødd": {
-                    "type": "string"
-                  },
-                  "kategori": {
-                    "type": "string"
-                  },
-                  "lenke": {
-                    "type": "object",
-                    "properties": {
-                      "rødliste_2015": {
-                        "type": "string"
-                      }
-                    }
-                  },
-                  "år": {
-                    "type": "number"
-                  },
-                  "AndelAvEuropeiskBestand": {
-                    "type": "string"
-                  },
-                  "AndelAvGlobalBestand": {
-                    "type": "string"
-                  },
-                  "AndelNåværendeBestand": {
-                    "type": "string"
-                  },
-                  "Kriteriedokumentasjon": {
-                    "type": "string"
-                  },
-                  "ÅrsakTilEndringAvKategori": {
-                    "type": "string"
-                  },
-                  "Generasjonslengde": {
-                    "type": "string"
-                  },
-                  "Hovedhabitat": {
-                    "type": "string"
-                  },
-                  "Kriterier": {
-                    "type": "string"
-                  },
-                  "Påvirkningsfaktorer": {
-                    "type": "string"
-                  },
-                  "utbredelse": {
-                    "type": "object",
-                    "properties": {
-                      "sikker": {
-                        "type": "array",
-                        "items": {
-                          "type": "string"
-                        }
-                      },
-                      "usikker": {
-                        "type": "array",
-                        "items": {
-                          "type": "string"
-                        }
-                      }
-                    }
-                  },
-                  "Bh": {
-                    "type": "string"
-                  },
-                  "Nh": {
-                    "type": "string"
-                  },
-                  "Po": {
-                    "type": "string"
-                  },
-                  "Sk": {
-                    "type": "string"
-                  },
-                  "No3": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          },
-          "svalbard": {
-            "type": "object",
-            "properties": {
-              "2010": {
-                "type": "object",
-                "properties": {
-                  "kategori": {
-                    "type": "string"
-                  },
-                  "år": {
-                    "type": "number"
-                  },
-                  "kriterier": {
-                    "type": "string"
-                  }
-                }
-              },
-              "gjeldende": {
-                "type": "object",
-                "properties": {
-                  "A": {
-                    "type": "string"
-                  },
-                  "B": {
-                    "type": "string"
-                  },
-                  "C": {
-                    "type": "string"
-                  },
-                  "D": {
-                    "type": "string"
-                  },
-                  "Trolig utdødd": {
-                    "type": "string"
-                  },
-                  "kategori": {
-                    "type": "string"
-                  },
-                  "lenke": {
-                    "type": "object",
-                    "properties": {
-                      "rødliste_2015": {
-                        "type": "string"
-                      }
-                    }
-                  },
-                  "ÅrsakTilEndringAvKategori": {
-                    "type": "string"
-                  },
-                  "år": {
-                    "type": "number"
-                  },
-                  "AndelAvEuropeiskBestand": {
-                    "type": "string"
-                  },
-                  "AndelAvGlobalBestand": {
-                    "type": "string"
-                  },
-                  "AndelNåværendeBestand": {
-                    "type": "string"
-                  },
-                  "Generasjonslengde": {
-                    "type": "string"
-                  },
-                  "Hovedhabitat": {
-                    "type": "string"
-                  },
-                  "Kriteriedokumentasjon": {
-                    "type": "string"
-                  },
-                  "utbredelse": {
-                    "type": "object",
-                    "properties": {
-                      "sikker": {
-                        "type": "array",
-                        "items": {
-                          "type": "string"
-                        }
-                      },
-                      "usikker": {
-                        "type": "array",
-                        "items": {
-                          "type": "string"
-                        }
-                      }
-                    }
-                  },
-                  "Kriterier": {
-                    "type": "string"
-                  },
-                  "Påvirkningsfaktorer": {
-                    "type": "string"
-                  },
-                  "Po": {
-                    "type": "string"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "required": [
-          "kode",
-          "norge",
-          "svalbard"
-        ]
-      }
-    },
-    "meta": {
-      "type": "object",
-      "properties": {
-        "tittel": {
-          "type": "string"
-        },
-        "produsertUtc": {
-          "type": "string"
-        },
-        "utgiver": {
-          "type": "string"
-        },
-        "url": {
-          "type": "string"
-        },
-        "tool": {
-          "type": "object",
+        "items": {
           "properties": {
-            "name": {
+            "kode": {
               "type": "string"
             },
-            "url": {
-              "type": "null"
+            "norge": {
+              "properties": {
+                "2010": {
+                  "properties": {
+                    "kategori": {
+                      "type": "string"
+                    },
+                    "kriterier": {
+                      "type": "string"
+                    },
+                    "år": {
+                      "type": "number"
+                    }
+                  },
+                  "type": "object"
+                },
+                "gjeldende": {
+                  "properties": {
+                    "A": {
+                      "type": "string"
+                    },
+                    "AndelAvEuropeiskBestand": {
+                      "type": "string"
+                    },
+                    "AndelAvGlobalBestand": {
+                      "type": "string"
+                    },
+                    "AndelNåværendeBestand": {
+                      "type": "string"
+                    },
+                    "B": {
+                      "type": "string"
+                    },
+                    "Bh": {
+                      "type": "string"
+                    },
+                    "C": {
+                      "type": "string"
+                    },
+                    "D": {
+                      "type": "string"
+                    },
+                    "Generasjonslengde": {
+                      "type": "string"
+                    },
+                    "Hovedhabitat": {
+                      "type": "string"
+                    },
+                    "Kriteriedokumentasjon": {
+                      "type": "string"
+                    },
+                    "Kriterier": {
+                      "type": "string"
+                    },
+                    "Nh": {
+                      "type": "string"
+                    },
+                    "No3": {
+                      "type": "string"
+                    },
+                    "Po": {
+                      "type": "string"
+                    },
+                    "Påvirkningsfaktorer": {
+                      "type": "string"
+                    },
+                    "Sk": {
+                      "type": "string"
+                    },
+                    "Trolig utdødd": {
+                      "type": "string"
+                    },
+                    "kategori": {
+                      "type": "string"
+                    },
+                    "lenke": {
+                      "properties": {
+                        "rødliste_2015": {
+                          "type": "string"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "utbredelse": {
+                      "properties": {
+                        "sikker": {
+                          "items": {
+                            "type": "string"
+                          },
+                          "type": "array"
+                        },
+                        "usikker": {
+                          "items": {
+                            "type": "string"
+                          },
+                          "type": "array"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "ÅrsakTilEndringAvKategori": {
+                      "type": "string"
+                    },
+                    "år": {
+                      "type": "number"
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
+            },
+            "svalbard": {
+              "properties": {
+                "2010": {
+                  "properties": {
+                    "kategori": {
+                      "type": "string"
+                    },
+                    "kriterier": {
+                      "type": "string"
+                    },
+                    "år": {
+                      "type": "number"
+                    }
+                  },
+                  "type": "object"
+                },
+                "gjeldende": {
+                  "properties": {
+                    "A": {
+                      "type": "string"
+                    },
+                    "AndelAvEuropeiskBestand": {
+                      "type": "string"
+                    },
+                    "AndelAvGlobalBestand": {
+                      "type": "string"
+                    },
+                    "AndelNåværendeBestand": {
+                      "type": "string"
+                    },
+                    "B": {
+                      "type": "string"
+                    },
+                    "C": {
+                      "type": "string"
+                    },
+                    "D": {
+                      "type": "string"
+                    },
+                    "Generasjonslengde": {
+                      "type": "string"
+                    },
+                    "Hovedhabitat": {
+                      "type": "string"
+                    },
+                    "Kriteriedokumentasjon": {
+                      "type": "string"
+                    },
+                    "Kriterier": {
+                      "type": "string"
+                    },
+                    "Po": {
+                      "type": "string"
+                    },
+                    "Påvirkningsfaktorer": {
+                      "type": "string"
+                    },
+                    "Trolig utdødd": {
+                      "type": "string"
+                    },
+                    "kategori": {
+                      "type": "string"
+                    },
+                    "lenke": {
+                      "properties": {
+                        "rødliste_2015": {
+                          "type": "string"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "utbredelse": {
+                      "properties": {
+                        "sikker": {
+                          "items": {
+                            "type": "string"
+                          },
+                          "type": "array"
+                        },
+                        "usikker": {
+                          "items": {
+                            "type": "string"
+                          },
+                          "type": "array"
+                        }
+                      },
+                      "type": "object"
+                    },
+                    "ÅrsakTilEndringAvKategori": {
+                      "type": "string"
+                    },
+                    "år": {
+                      "type": "number"
+                    }
+                  },
+                  "type": "object"
+                }
+              },
+              "type": "object"
             }
+          },
+          "required": [
+            "kode",
+            "norge",
+            "svalbard"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "meta": {
+        "properties": {
+          "elementer": {
+            "type": "number"
+          },
+          "produsertUtc": {
+            "type": "string"
+          },
+          "source": {
+            "items": {
+              "properties": {
+                "elementer": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "produsertUtc": {
+                  "type": "string"
+                },
+                "source": {
+                  "items": {
+                    "properties": {
+                      "elementer": {
+                        "type": "number"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "produsertUtc": {
+                        "type": "string"
+                      },
+                      "source": {
+                        "items": {
+                          "properties": {
+                            "elementer": {
+                              "type": "number"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "produsertUtc": {
+                              "type": "string"
+                            },
+                            "source": {
+                              "items": {},
+                              "type": "array"
+                            },
+                            "tittel": {
+                              "type": "string"
+                            },
+                            "tool": {
+                              "properties": {
+                                "commit": {
+                                  "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
+                                }
+                              },
+                              "type": "object"
+                            },
+                            "url": {
+                              "type": [
+                                "null",
+                                "string"
+                              ]
+                            },
+                            "utgiver": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "name",
+                            "tittel",
+                            "produsertUtc",
+                            "utgiver",
+                            "url",
+                            "tool",
+                            "elementer"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "tittel": {
+                        "type": "string"
+                      },
+                      "tool": {
+                        "properties": {
+                          "commit": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          }
+                        },
+                        "type": "object"
+                      },
+                      "url": {
+                        "type": "null"
+                      },
+                      "utgiver": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "name"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "tittel": {
+                  "type": "string"
+                },
+                "tool": {
+                  "properties": {
+                    "commit": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "url": {
+                  "type": "null"
+                },
+                "utgiver": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "tittel": {
+            "type": "string"
+          },
+          "tool": {
+            "properties": {
+              "commit": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "null"
+              }
+            },
+            "type": "object"
+          },
+          "url": {
+            "type": "string"
+          },
+          "utgiver": {
+            "type": "string"
           }
         },
-        "elementer": {
-          "type": "number"
-        }
+        "type": "object"
       }
     },
-    "$schema": {
-      "type": "string"
-    }
+    "type": "object"
   },
   "meta": {
     "tittel": "Art.schema",
-    "produsertUtc": "2019-11-25T21:55:58.340Z",
+    "produsertUtc": "2020-04-30T07:43:09.159Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/art.schema.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-truet/tree/art.schema.json",
     "tool": {
-      "name": "truet-art-lastejobb"
+      "name": "truet-art-lastejobb",
+      "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/4f73dcb60ab5c93c6ab40da29048644f9adb1400"
     },
-    "elementer": 3
+    "elementer": 3,
+    "source": [
+      {
+        "name": "37_områder",
+        "tittel": "37 områder",
+        "produsertUtc": "2020-04-30T07:43:05.340Z",
+        "utgiver": "Artsdatabanken",
+        "url": null,
+        "tool": {
+          "name": "truet-art-lastejobb",
+          "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/4f73dcb60ab5c93c6ab40da29048644f9adb1400"
+        },
+        "elementer": 30278,
+        "source": [
+          {
+            "name": "30_unflatten",
+            "tittel": "30 unflatten",
+            "produsertUtc": "2020-04-30T07:10:10.689Z",
+            "utgiver": "Artsdatabanken",
+            "url": null,
+            "tool": {
+              "name": "truet-art-lastejobb",
+              "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/4f73dcb60ab5c93c6ab40da29048644f9adb1400"
+            },
+            "elementer": 30278,
+            "source": [
+              {
+                "name": "Alle artsgrupper SLICER",
+                "tittel": "Alle artsgrupper slicer",
+                "produsertUtc": "2020-04-30T07:10:06.881Z",
+                "utgiver": "Artsdatabanken",
+                "url": null,
+                "tool": {
+                  "name": "truet-art-lastejobb",
+                  "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/4f73dcb60ab5c93c6ab40da29048644f9adb1400"
+                },
+                "elementer": 31314,
+                "source": []
+              },
+              {
+                "name": "art-takson/type",
+                "tittel": "Type",
+                "produsertUtc": "2020-01-13T13:44:25.165Z",
+                "utgiver": "Artsdatabanken",
+                "url": "https://raw.githubusercontent.com/Artsdatabanken/art-takson/master/type.json",
+                "tool": {
+                  "name": "art-takson-lastejobb"
+                },
+                "elementer": 131450
+              }
+            ]
+          },
+          {
+            "name": "art-truet-ubehandlet/område"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -1,101 +1,122 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "items": {
-      "type": "array",
+  "items": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+      "$schema": {
+        "type": "string"
+      },
       "items": {
-        "type": "object",
-        "properties": {
-          "beskrivelse": {
-            "type": "object",
-            "properties": {
-              "nb": {
-                "type": "string"
-              }
+        "items": {
+          "properties": {
+            "beskrivelse": {
+              "properties": {
+                "nb": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "farge": {
+              "type": "string"
+            },
+            "infoUrl": {
+              "type": "string"
+            },
+            "kode": {
+              "type": "string"
+            },
+            "sortering": {
+              "type": "number"
+            },
+            "tittel": {
+              "properties": {
+                "nb": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "url": {
+              "type": [
+                "null",
+                "string"
+              ]
             }
           },
-          "farge": {
-            "type": "string"
-          },
-          "foreldre": {
-            "type": "array",
-            "items": {}
-          },
-          "infoUrl": {
-            "type": "string"
-          },
-          "kode": {
-            "type": "string"
-          },
-          "sortering": {
+          "required": [
+            "beskrivelse",
+            "farge",
+            "kode",
+            "sortering",
+            "tittel",
+            "url"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "meta": {
+        "properties": {
+          "elementer": {
             "type": "number"
           },
+          "produsertUtc": {
+            "type": "string"
+          },
+          "source": {
+            "items": {
+              "properties": {
+                "name": {
+                  "type": "string"
+                }
+              },
+              "type": "object"
+            },
+            "type": "array"
+          },
           "tittel": {
-            "type": "object",
+            "type": "string"
+          },
+          "tool": {
             "properties": {
-              "nb": {
+              "commit": {
                 "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "url": {
+                "type": "null"
               }
-            }
+            },
+            "type": "object"
           },
           "url": {
             "type": "string"
+          },
+          "utgiver": {
+            "type": "string"
           }
         },
-        "required": [
-          "beskrivelse",
-          "farge",
-          "kode",
-          "sortering",
-          "tittel",
-          "url"
-        ]
+        "type": "object"
       }
     },
-    "meta": {
-      "type": "object",
-      "properties": {
-        "tittel": {
-          "type": "string"
-        },
-        "produsertUtc": {
-          "type": "string"
-        },
-        "utgiver": {
-          "type": "string"
-        },
-        "url": {
-          "type": "string"
-        },
-        "tool": {
-          "type": "object",
-          "properties": {
-            "name": {
-              "type": "string"
-            },
-            "url": {
-              "type": "null"
-            }
-          }
-        },
-        "elementer": {
-          "type": "number"
-        }
-      }
-    },
-    "$schema": {
-      "type": "string"
-    }
+    "type": "object"
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2019-11-25T21:55:57.226Z",
+    "produsertUtc": "2020-04-30T07:43:06.831Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/type.schema.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-truet/tree/type.schema.json",
     "tool": {
-      "name": "truet-art-lastejobb"
+      "name": "truet-art-lastejobb",
+      "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/4f73dcb60ab5c93c6ab40da29048644f9adb1400"
     },
-    "elementer": 3
+    "elementer": 3,
+    "source": [
+      {
+        "name": "art-truet-ubehandlet/type.json"
+      }
+    ]
   }
 }

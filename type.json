@@ -5,14 +5,12 @@
         "nb": "Truede arter er arter som står i fare for å dø ut. Den offisielle oversikten over hvilke arter dette gjelder gis i den nasjonale rødlista. Fjellrev, ulv og lomvi er blant artene som er kritisk truet."
       },
       "farge": "hsl(12, 40%, 70%)",
-      "foreldre": [],
       "infoUrl": "https://no.wikipedia.org/wiki/IUCNs_r%C3%B8dliste#R%C3%B8dlistestatus",
       "kode": "RL",
       "sortering": 5,
       "tittel": {
         "nb": "Truet art/natur"
-      },
-      "url": "/Truet_art_natur"
+      }
     },
     {
       "beskrivelse": {
@@ -24,7 +22,7 @@
       "tittel": {
         "nb": "Kritisk truet"
       },
-      "url": "/Truet_art_natur/Kritisk_truet"
+      "url": "undefined/Kritisk_truet"
     },
     {
       "beskrivelse": {
@@ -36,7 +34,7 @@
       "tittel": {
         "nb": "Datamangel"
       },
-      "url": "/Truet_art_natur/Datamangel"
+      "url": "undefined/Datamangel"
     },
     {
       "beskrivelse": {
@@ -48,7 +46,7 @@
       "tittel": {
         "nb": "Sterkt truet"
       },
-      "url": "/Truet_art_natur/Sterkt_truet"
+      "url": "undefined/Sterkt_truet"
     },
     {
       "beskrivelse": {
@@ -60,7 +58,7 @@
       "tittel": {
         "nb": "Ikke rødlistet"
       },
-      "url": "/Truet_art_natur/Ikke_rødlistet"
+      "url": "undefined/Ikke_rødlistet"
     },
     {
       "beskrivelse": {
@@ -72,7 +70,7 @@
       "tittel": {
         "nb": "Ikke vurdert"
       },
-      "url": "/Truet_art_natur/Ikke_vurdert"
+      "url": "undefined/Ikke_vurdert"
     },
     {
       "beskrivelse": {
@@ -84,7 +82,7 @@
       "tittel": {
         "nb": "Nær truet"
       },
-      "url": "/Truet_art_natur/Nær_truet"
+      "url": "undefined/Nær_truet"
     },
     {
       "beskrivelse": {
@@ -96,7 +94,7 @@
       "tittel": {
         "nb": "Regionalt utdødd"
       },
-      "url": "/Truet_art_natur/Regionalt_utdødd"
+      "url": "undefined/Regionalt_utdødd"
     },
     {
       "beskrivelse": {
@@ -108,18 +106,24 @@
       "tittel": {
         "nb": "Sårbar"
       },
-      "url": "/Truet_art_natur/Sårbar"
+      "url": "undefined/Sårbar"
     }
   ],
   "meta": {
     "tittel": "Type",
-    "produsertUtc": "2019-11-25T21:55:57.223Z",
+    "produsertUtc": "2020-04-30T07:43:06.828Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/type.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-truet/tree/type.json",
     "tool": {
-      "name": "truet-art-lastejobb"
+      "name": "truet-art-lastejobb",
+      "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/4f73dcb60ab5c93c6ab40da29048644f9adb1400"
     },
-    "elementer": 9
+    "elementer": 9,
+    "source": [
+      {
+        "name": "art-truet-ubehandlet/type.json"
+      }
+    ]
   },
-  "$schema": "https://raw.githubusercontent.com/Artsdatabanken/truet-art/master/type.schema.json#"
+  "$schema": "https://raw.githubusercontent.com/Artsdatabanken/art-truet/tree/type.schema.json#"
 }
