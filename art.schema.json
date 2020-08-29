@@ -402,48 +402,48 @@
   },
   "meta": {
     "tittel": "Art.schema",
-    "produsertUtc": "2020-04-30T07:43:09.159Z",
+    "produsertUtc": "2020-08-29T18:36:31.722Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-truet/tree/art.schema.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-truet/master/art.schema.json",
     "tool": {
       "name": "truet-art-lastejobb",
-      "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/4f73dcb60ab5c93c6ab40da29048644f9adb1400"
+      "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/982a5bdd7edaa47726268a683455370fb38f742d"
     },
     "elementer": 3,
     "source": [
       {
         "name": "37_områder",
         "tittel": "37 områder",
-        "produsertUtc": "2020-04-30T07:43:05.340Z",
+        "produsertUtc": "2020-08-29T18:36:29.934Z",
         "utgiver": "Artsdatabanken",
         "url": null,
         "tool": {
           "name": "truet-art-lastejobb",
-          "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/4f73dcb60ab5c93c6ab40da29048644f9adb1400"
+          "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/982a5bdd7edaa47726268a683455370fb38f742d"
         },
         "elementer": 30278,
         "source": [
           {
             "name": "30_unflatten",
             "tittel": "30 unflatten",
-            "produsertUtc": "2020-04-30T07:10:10.689Z",
+            "produsertUtc": "2020-08-29T18:36:28.600Z",
             "utgiver": "Artsdatabanken",
             "url": null,
             "tool": {
               "name": "truet-art-lastejobb",
-              "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/4f73dcb60ab5c93c6ab40da29048644f9adb1400"
+              "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/982a5bdd7edaa47726268a683455370fb38f742d"
             },
             "elementer": 30278,
             "source": [
               {
                 "name": "Alle artsgrupper SLICER",
                 "tittel": "Alle artsgrupper slicer",
-                "produsertUtc": "2020-04-30T07:10:06.881Z",
+                "produsertUtc": "2020-08-29T18:36:23.110Z",
                 "utgiver": "Artsdatabanken",
                 "url": null,
                 "tool": {
                   "name": "truet-art-lastejobb",
-                  "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/4f73dcb60ab5c93c6ab40da29048644f9adb1400"
+                  "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/982a5bdd7edaa47726268a683455370fb38f742d"
                 },
                 "elementer": 31314,
                 "source": []

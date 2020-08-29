@@ -19,6 +19,10 @@
             "farge": {
               "type": "string"
             },
+            "foreldre": {
+              "items": {},
+              "type": "array"
+            },
             "infoUrl": {
               "type": "string"
             },
@@ -37,10 +41,7 @@
               "type": "object"
             },
             "url": {
-              "type": [
-                "null",
-                "string"
-              ]
+              "type": "string"
             }
           },
           "required": [
@@ -105,12 +106,12 @@
   },
   "meta": {
     "tittel": "Type.schema",
-    "produsertUtc": "2020-04-30T07:43:06.831Z",
+    "produsertUtc": "2020-08-29T18:36:30.702Z",
     "utgiver": "Artsdatabanken",
-    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-truet/tree/type.schema.json",
+    "url": "https://raw.githubusercontent.com/Artsdatabanken/art-truet/master/type.schema.json",
     "tool": {
       "name": "truet-art-lastejobb",
-      "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/4f73dcb60ab5c93c6ab40da29048644f9adb1400"
+      "commit": "https://github.com/Artsdatabanken/art-truet-lastejobb/master/982a5bdd7edaa47726268a683455370fb38f742d"
     },
     "elementer": 3,
     "source": [
